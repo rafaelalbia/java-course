@@ -1,21 +1,21 @@
-package lessons;
+package examples;
 
 import java.util.Scanner;
 
-public class example7 {
+public class example6 {
     
     public static void main(String[] Args) {
-
-        // Example 7
+        
+        // Example 6
         Scanner input = new Scanner(System.in);
 
-        int x;
+        String x;
 
-        x = input.nextInt();
+        x = input.next();
         input.close();
 
         System.out.println(x);
-        
+
     }
     
 }

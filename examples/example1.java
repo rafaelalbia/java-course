@@ -1,4 +1,4 @@
-package lessons;
+package examples;
 
 public class example1 {
     public static void main(String[] Args) {

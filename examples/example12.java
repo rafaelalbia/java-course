@@ -1,6 +1,6 @@
-package lessons;
+package examples;
 
-public class example13 {
+public class example12 {
     
     public static void main(String[] Args) {
 

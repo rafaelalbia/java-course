@@ -1,4 +1,4 @@
-package lessons;
+package examples;
 
 public class example3 {
     
