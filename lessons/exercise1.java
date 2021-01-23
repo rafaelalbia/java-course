@@ -5,6 +5,7 @@ import java.util.Locale;
 public class exercise1 {
 
     public static void main(String[] Args) {
+
         String product1 = "Computer";
         String product2 = "Office desk";
 
@@ -23,5 +24,6 @@ public class exercise1 {
         System.out.printf("Rounded (three decimal places): %.3f%n", measure);
         Locale.setDefault(Locale.US);
         System.out.printf("US decimal point: %.3f%n", measure);
+        
     }
 }
