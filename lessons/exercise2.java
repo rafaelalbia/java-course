@@ -29,4 +29,5 @@ public class exercise2 {
         System.out.println("Absolute value of" + z + " = " + B);
         
     }
+    
 }

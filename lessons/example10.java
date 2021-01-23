@@ -19,6 +19,7 @@ public class example10 {
         input.close();
 
         System.out.printf("Data: %s %d %.2f%n", x, y, z);
-        
+
     }
+    
 }

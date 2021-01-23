@@ -17,4 +17,5 @@ public class example6 {
         System.out.println(x);
 
     }
+    
 }
