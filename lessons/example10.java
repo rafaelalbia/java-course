@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class example10 {
 
     public static void main(String[] Args) {
+
         // Example 10
         Scanner input = new Scanner(System.in);
 
@@ -18,5 +19,6 @@ public class example10 {
         input.close();
 
         System.out.printf("Data: %s %d %.2f%n", x, y, z);
+        
     }
 }

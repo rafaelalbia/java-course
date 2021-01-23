@@ -3,6 +3,7 @@ package lessons;
 public class example4 {
     
     public static void main(String[] Args) {
+        
         // Example 4
         int a, b;
         double result;
@@ -13,5 +14,6 @@ public class example4 {
         result = (double) a / b;
 
         System.out.println(result);
+
     }
 }

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class example9 {
     
     public static void main(String[] Args) {
+
         // Example 9
         Scanner input = new Scanner(System.in);
 
@@ -14,5 +15,6 @@ public class example9 {
         input.close();
 
         System.out.println(x);
+        
     }
 }

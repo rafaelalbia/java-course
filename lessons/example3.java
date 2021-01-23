@@ -3,6 +3,7 @@ package lessons;
 public class example3 {
     
     public static void main(String[] Args) {
+        
         // Example 3
         double b, B, h, area;
 
@@ -13,5 +14,6 @@ public class example3 {
         area = (b + B) / 2.0 * h;
 
         System.out.println(area);
+
     }
 }

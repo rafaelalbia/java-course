@@ -3,6 +3,7 @@ package lessons;
 public class example2 {
     
     public static void main(String[] Args) {
+        
         // Example 2
         int x;
         double y;
@@ -13,5 +14,6 @@ public class example2 {
 
         System.out.println(x);
         System.out.println(y);
+
     }
 }
