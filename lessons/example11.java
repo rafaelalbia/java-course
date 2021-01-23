@@ -8,14 +8,17 @@ public class example11 {
         // Example 11
         Scanner input = new Scanner(System.in);
 
+        int x;
         String data1, data2, data3;
 
+        x = input.nextInt();
+        input.nextLine();
         data1 = input.nextLine();
         data2 = input.nextLine();
         data3 = input.nextLine();
         input.close();
 
         System.out.println("Data:");
-        System.out.printf("%s%n%s%n%s%n", data1, data2, data3);
+        System.out.printf("%s%n%s%n%s%n%s%n", x, data1, data2, data3);
     }
 }
