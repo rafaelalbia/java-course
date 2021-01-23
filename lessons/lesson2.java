@@ -1,6 +1,6 @@
 package lessons;
 
-public class exercise2 {
+public class lesson2 {
     
     public static void main(String[] Args) {
         
@@ -19,14 +19,14 @@ public class exercise2 {
         A = Math.pow(x, y);
         B = Math.pow(x, 2.0);
         C = Math.pow(5.0, 2.0);
-        System.out.println(x + "raised to power" + y + " = " + A);
-        System.out.println(x + "squared = " + B);
+        System.out.println(x + " raised to power" + y + " = " + A);
+        System.out.println(x + " squared = " + B);
         System.out.println("5 squared = " + C);
 
         A = Math.abs(x);
         B = Math.abs(y);
-        System.out.println("Absolute value of" + y + " = " + A);
-        System.out.println("Absolute value of" + z + " = " + B);
+        System.out.println("Absolute value of " + y + " = " + A);
+        System.out.println("Absolute value of " + z + " = " + B);
         
     }
     

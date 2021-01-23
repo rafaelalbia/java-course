@@ -2,7 +2,7 @@ package lessons;
 
 import java.util.Locale;
 
-public class exercise1 {
+public class lesson1 {
 
     public static void main(String[] Args) {
 
