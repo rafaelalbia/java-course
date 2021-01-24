@@ -22,7 +22,5 @@ public class exercise4 {
         System.out.println("ID: " + ID);
         System.out.printf("Salary: $ %.2f%n", salary);
         input.close();
-
     }
-    
 }

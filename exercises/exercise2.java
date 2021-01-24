@@ -17,7 +17,5 @@ public class exercise2 {
 
         System.out.printf("The area is equal %.4f%n", area);
         input.close();
-
     }
-
 }

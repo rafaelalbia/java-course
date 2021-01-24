@@ -27,7 +27,5 @@ public class exercise6 {
         System.out.printf("Square area: %.3f%n", squareArea);
         System.out.printf("Rectangle area: %.3f%n", rectangleArea);
         input.close();
-
     }
-    
 }

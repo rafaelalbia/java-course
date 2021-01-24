@@ -18,7 +18,5 @@ public class exercise1 {
 
         System.out.println("The result of sum is " + sumResult);
         input.close();
-
     }
-
 }

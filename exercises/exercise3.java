@@ -22,7 +22,5 @@ public class exercise3 {
 
         System.out.println("The difference is equal " + difference);
         input.close();
-
     }
-
 }

@@ -17,7 +17,5 @@ public class example8 {
 
         System.out.println(x);
         input.close();
-        
     }
-    
 }

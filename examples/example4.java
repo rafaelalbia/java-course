@@ -14,7 +14,5 @@ public class example4 {
         result = (double) a / b;
 
         System.out.println(result);
-
     }
-    
 }
