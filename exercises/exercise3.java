@@ -18,10 +18,10 @@ public class exercise3 {
         C = input.nextInt();
         System.out.print("Value of D: ");
         D = input.nextInt();
-        input.close();
         difference = (A * B - C * D);
 
         System.out.println("The difference is equal " + difference);
+        input.close();
 
     }
 

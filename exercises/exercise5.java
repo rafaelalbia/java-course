@@ -22,11 +22,11 @@ public class exercise5 {
         order = input.nextInt();
         amount = input.nextInt();
         unitaryValue = input.nextDouble();
-        input.close();
 
         totalValue += amount * unitaryValue;
 
         System.out.printf("Total value: $ %.2f%n", totalValue);
+        input.close();
         
     }
     

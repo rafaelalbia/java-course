@@ -14,9 +14,9 @@ public class example8 {
         double x;
         
         x = input.nextDouble();
-        input.close();
 
         System.out.println(x);
+        input.close();
         
     }
     

@@ -15,7 +15,6 @@ public class exercise6 {
         A = input.nextDouble();
         B = input.nextDouble();
         C = input.nextDouble();
-        input.close();
         triangleArea = (A * C) / 2;
         circleRadius = pi * Math.pow(C, 2);
         trapezoidArea =  C * (A + B) / 2;
@@ -27,6 +26,7 @@ public class exercise6 {
         System.out.printf("Trapezoid area: %.3f%n", trapezoidArea);
         System.out.printf("Square area: %.3f%n", squareArea);
         System.out.printf("Rectangle area: %.3f%n", rectangleArea);
+        input.close();
 
     }
     

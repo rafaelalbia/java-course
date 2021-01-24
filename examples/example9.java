@@ -12,9 +12,9 @@ public class example9 {
         char x;
 
         x = input.next().charAt(0);
-        input.close();
 
         System.out.println(x);
+        input.close();
         
     }
     

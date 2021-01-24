@@ -12,9 +12,9 @@ public class example7 {
         int x;
 
         x = input.nextInt();
-        input.close();
 
         System.out.println(x);
+        input.close();
         
     }
     

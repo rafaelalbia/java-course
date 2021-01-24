@@ -17,11 +17,11 @@ public class exercise4 {
         hoursWorked = input.nextDouble();
         System.out.print("Hour value: $ ");
         hourValue = input.nextDouble();
-        input.close();
         salary = hoursWorked * hourValue;
 
         System.out.println("ID: " + ID);
         System.out.printf("Salary: $ %.2f%n", salary);
+        input.close();
 
     }
     

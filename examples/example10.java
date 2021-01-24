@@ -16,9 +16,9 @@ public class example10 {
         x = input.next();
         y = input.nextInt();
         z = input.nextDouble();
-        input.close();
 
         System.out.printf("Data: %s %d %.2f%n", x, y, z);
+        input.close();
 
     }
     

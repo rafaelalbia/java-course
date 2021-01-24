@@ -17,10 +17,10 @@ public class example11 {
         data1 = input.nextLine();
         data2 = input.nextLine();
         data3 = input.nextLine();
-        input.close();
 
         System.out.println("Data:");
         System.out.printf("%s%n%s%n%s%n%s%n", x, data1, data2, data3);
+        input.close();
 
     }
     

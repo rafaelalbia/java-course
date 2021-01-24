@@ -8,16 +8,16 @@ public class exercise1 {
 
         Scanner input = new Scanner(System.in);
 
-        int firstValue, secondValue, resultSum;
+        int firstValue, secondValue, sumResult;
 
         System.out.print("First value: ");
         firstValue = input.nextInt();
         System.out.print("Second value: ");
         secondValue = input.nextInt();
-        input.close();
-        resultSum = firstValue + secondValue;
+        sumResult = firstValue + secondValue;
 
-        System.out.println("The result of sum is " + resultSum);
+        System.out.println("The result of sum is " + sumResult);
+        input.close();
 
     }
 
