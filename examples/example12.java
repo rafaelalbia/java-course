@@ -7,6 +7,7 @@ public class example12 {
     public static void main(String[] Args) {
 
         Scanner input = new Scanner(System.in);
+
         int hour;
 
         System.out.print("What time? ");
