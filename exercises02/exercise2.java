@@ -18,5 +18,6 @@ public class exercise2 {
         } else {
             System.out.println("This is odd number");
         }
+        input.close();
     }
 }
