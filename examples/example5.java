@@ -12,7 +12,5 @@ public class example5 {
         b = (int) a;
 
         System.out.println(b);
-
     }
-    
 }

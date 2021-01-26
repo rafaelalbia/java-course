@@ -27,7 +27,5 @@ public class lesson2 {
         B = Math.abs(y);
         System.out.println("Absolute value of " + y + " = " + A);
         System.out.println("Absolute value of " + z + " = " + B);
-        
     }
-    
 }

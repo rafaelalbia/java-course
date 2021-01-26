@@ -1,4 +1,4 @@
-package exercises;
+package exercises01;
 
 import java.util.Scanner;
 
@@ -17,7 +17,5 @@ public class exercise2 {
 
         System.out.printf("The area is equal %.4f%n", area);
         input.close();
-
     }
-
 }

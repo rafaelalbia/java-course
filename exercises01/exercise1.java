@@ -1,4 +1,4 @@
-package exercises;
+package exercises01;
 
 import java.util.Scanner;
 
@@ -18,7 +18,5 @@ public class exercise1 {
 
         System.out.println("The result of sum is " + sumResult);
         input.close();
-
     }
-
 }

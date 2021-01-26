@@ -1,4 +1,4 @@
-package exercises;
+package exercises01;
 
 import java.util.Scanner;
 
@@ -27,7 +27,5 @@ public class exercise5 {
 
         System.out.printf("Total value: $ %.2f%n", totalValue);
         input.close();
-        
     }
-    
 }

@@ -14,7 +14,5 @@ public class example2 {
 
         System.out.println(x);
         System.out.println(y);
-
     }
-    
 }

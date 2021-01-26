@@ -14,7 +14,5 @@ public class example3 {
         area = (b + B) / 2.0 * h;
 
         System.out.println(area);
-
     }
-    
 }
