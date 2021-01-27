@@ -14,6 +14,7 @@ public class example9 {
         x = input.next().charAt(0);
 
         System.out.println(x);
+        
         input.close();
     }
 }

@@ -16,6 +16,7 @@ public class example8 {
         x = input.nextDouble();
 
         System.out.println(x);
+        
         input.close();
     }
 }
