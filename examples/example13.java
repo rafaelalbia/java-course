@@ -16,6 +16,7 @@ public class example13 {
         }
 
         System.out.printf("Total value: $ %.2f%n", fee);
+        
         input.close();
     }
     

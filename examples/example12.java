@@ -23,6 +23,7 @@ public class example12 {
                 System.out.println("Good night");
             }
         }
+        
         input.close();
     }
 }

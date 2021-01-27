@@ -20,6 +20,7 @@ public class example11 {
 
         System.out.println("Data:");
         System.out.printf("%s%n%s%n%s%n%s%n", x, data1, data2, data3);
+        
         input.close();
     }
 }

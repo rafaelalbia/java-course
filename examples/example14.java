@@ -37,6 +37,7 @@ public class example14 {
         }
 
         System.out.printf("Day: %s", result);
+        
         input.close();
     }
     

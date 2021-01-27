@@ -17,6 +17,7 @@ public class example16 {
 
         System.out.printf("Area: %.2f%n", area);
         System.out.printf("Price: %.2f%n", price);
+        
         input.close();
     }
 }

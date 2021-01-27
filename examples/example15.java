@@ -11,6 +11,7 @@ public class example15 {
         double discount = (price < 20.0) ? price * 0.1 : price * 0.05;
 
         System.out.println(discount);
+        
         input.close();
     }
 }

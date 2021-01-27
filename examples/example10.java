@@ -18,6 +18,7 @@ public class example10 {
         z = input.nextDouble();
 
         System.out.printf("Data: %s %d %.2f%n", x, y, z);
+        
         input.close();
     }
 }
