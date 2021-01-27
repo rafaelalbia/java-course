@@ -17,6 +17,7 @@ public class exercise1 {
         sumResult = firstValue + secondValue;
 
         System.out.println("The result of sum is " + sumResult);
+        
         input.close();
     }
 }

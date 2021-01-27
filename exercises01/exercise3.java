@@ -21,6 +21,7 @@ public class exercise3 {
         difference = (A * B - C * D);
 
         System.out.println("The difference is equal " + difference);
+        
         input.close();
     }
 }

@@ -26,6 +26,7 @@ public class exercise5 {
         totalValue += amount * unitaryValue;
 
         System.out.printf("Total value: $ %.2f%n", totalValue);
+        
         input.close();
     }
 }

@@ -16,6 +16,7 @@ public class exercise2 {
         area = pi * Math.pow(radius, 2);
 
         System.out.printf("The area is equal %.4f%n", area);
+        
         input.close();
     }
 }
