@@ -27,6 +27,7 @@ public class exercise8 {
             fee = 1000 * 0.08 + 1500 * 0.18 + (salary - 4500.00) * 0.28;
             System.out.printf("Fee: $ %.2f%n", fee);
         }
+        
         input.close();
     }
 }

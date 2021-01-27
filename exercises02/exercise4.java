@@ -24,6 +24,7 @@ public class exercise4 {
         }
 
         System.out.printf("The game lasted %d hour(s)%n", timeElapsed);
+        
         input.close();
     }
 }

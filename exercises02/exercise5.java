@@ -19,6 +19,7 @@ public class exercise5 {
         totalValue = price[choice] * amount;
         
         System.out.printf("Total value: $ %.2f%n", totalValue);
+        
         input.close();
     }
 }

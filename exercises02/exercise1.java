@@ -18,6 +18,7 @@ public class exercise1 {
         } else {
             System.out.println("The number is not NEGATIVE");
         }
+        
         input.close();
     }
 }

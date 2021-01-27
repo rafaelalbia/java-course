@@ -25,6 +25,7 @@ public class exercise7 {
         } else {
             System.out.println("Origin");
         }
+        
         input.close();
     }
 }

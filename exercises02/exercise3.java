@@ -19,6 +19,7 @@ public class exercise3 {
         } else {
             System.out.println("They are not multiple");
         }
+        
         input.close();
     }
 }

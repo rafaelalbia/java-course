@@ -24,6 +24,7 @@ public class exercise6 {
         } else {
             System.out.println("Interval (75, 100)");
         }
+        
         input.close();
     }
 }
