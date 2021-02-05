@@ -3,18 +3,25 @@ package exercises03;
 import java.util.Scanner;
 
 public class exercise2 {
-    
+
     public static void main(String[] Args) {
 
         Scanner input = new Scanner(System.in);
 
-        int x, y = 1;
+        System.out.print("type a value (X and Y): ");
+        int x = input.nextInt();
+        int y = input.nextInt();
 
-        while (x != 0 || y != 0) {
-            System.out.print("X: ");
-            x = input.nextInt();
-            System.out.print("Y: ");
-            y = input.nextInt();
+        if (x != 0 && y != 0) {
+            if (x > 0 && y > 0) {
+                System.out.println("First");
+            } else if (x < 0 && y > 0) {
+                System.out.println("Second");
+            } else if (x < 0 && y < 0) {
+                System.out.println("Third");
+            } else if (x > 0 && y < 0) {
+                System.out.println("Fourty");
+            }
         }
 
         input.close();
