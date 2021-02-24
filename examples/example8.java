@@ -1,5 +1,3 @@
-package examples;
-
 import java.util.Scanner;
 import java.util.Locale;
 

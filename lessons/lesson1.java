@@ -1,5 +1,3 @@
-package lessons;
-
 import java.util.Locale;
 
 public class lesson1 {

@@ -1,5 +1,3 @@
-package examples;
-
 public class example5 {
     
     public static void main(String[] Args) {
