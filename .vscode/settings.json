@@ -1,6 +1,10 @@
 {
     "java.project.sourcePaths": [
+        "examples",
+        "exercises01",
+        "exercises02",
+        "exercises03",
         "exercises04",
-        "examples"
+        "lessons"
     ]
 }
