@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import jdk.javadoc.internal.tool.resources.javadoc;
-
 public class example21 {
 
     public static void main(String[] args) {
