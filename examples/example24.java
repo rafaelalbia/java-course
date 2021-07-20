@@ -21,7 +21,7 @@ public class example24 {
         yC = input.nextDouble();
 
         System.out.printf("Triangle X area: %.4f%n", triangleArea(xA, xB, xC));
-        System.out.printf("Triangle X area: %.4f%n", triangleArea(yA, yB, yC));
+        System.out.printf("Triangle Y area: %.4f%n", triangleArea(yA, yB, yC));
         System.out.printf("Larger area: %.4f%n", max(triangleArea(xA, xB, xC), triangleArea(yA, yB, yC)));
 
         input.close();
