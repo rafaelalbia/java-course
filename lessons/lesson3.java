@@ -34,7 +34,7 @@ public class lesson3 {
 
         System.out.println();
 
-        System.out.print("Enter the number of products to be removed in stock: ");
+        System.out.print("Enter the number of products to be removed from stock: ");
         firstProduct.removeProducts(input.nextInt());
 
         System.out.println();
