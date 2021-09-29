@@ -6,24 +6,15 @@ public class exercise8 {
 
         Scanner input = new Scanner(System.in);
 
-        double salary, fee;
+        int number;
 
-        System.out.print("Enter your salary: R$ ");
-        salary = input.nextDouble();
+        System.out.print("Enter a number: ");
+        number = input.nextInt();
 
-        if (salary < 0) {
-            System.out.println("Error");
-        } else if (salary > 0.00 && salary <= 2000.00) {
-            System.out.println("Free");
-        } else if (salary <= 3000.00) {
-            fee = 1000 * 0.08;
-            System.out.printf("Fee: $ %.2f%n", fee);
-        } else if (salary <= 4500.00) {
-            fee = 1000 * 0.08 + (salary - 3000.00) * 0.18;
-            System.out.printf("Fee: $ %.2f%n", fee);
+        if (number % 2 == 0) {
+            System.out.println("This is even number");
         } else {
-            fee = 1000 * 0.08 + 1500 * 0.18 + (salary - 4500.00) * 0.28;
-            System.out.printf("Fee: $ %.2f%n", fee);
+            System.out.println("This is odd number");
         }
         
         input.close();
