@@ -3,6 +3,9 @@ package entities;
 import java.util.Scanner;
 
 public class Product {
+
+    Scanner input = new Scanner(System.in);
+
     public String name;
     public double price;
     public int quantity;
@@ -11,19 +14,22 @@ public class Product {
         return price * quantity;
     }
 
-    // public int addProduct() {
-    // }
-
-    // public int removeProducts() {
-    // }
-
-    public void productData() {
-        System.out.printf(
-            "%nProduct data: %s, $ %.2f, %d units, Total: $ %.2f%n",
-            name,
-            price,
-            quantity,
-            totalValueInStock()
-        );
+    public void addProduct(int quantity) {
+        this.quantity += quantity;
     }
+
+    public void removeProducts(int quantity) {
+        this.quantity -= quantity;
+    }
+
+    public String toString() {
+        return name
+            + ", $"
+            + price
+            + ", "
+            + quantity
+            + " units, Total: $ "
+            + price * quantity;
+    }
+
 }

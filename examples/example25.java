@@ -23,21 +23,15 @@ public class example25 {
         y.a = input.nextDouble();
         y.b = input.nextDouble();
         y.c = input.nextDouble();
+        
+        double areaX = x.area();
+        double areaY = y.area();
 
-        System.out.printf("Triangle X area: %.4f%n", triangleArea(x.a, x.b, x.c));
-        System.out.printf("Triangle Y area: %.4f%n", triangleArea(y.a, y.b, y.c));
-        System.out.printf("Larger area: %s%n", max(triangleArea(x.a, x.b, x.c), triangleArea(y.a, y.b, y.c)));
+        System.out.printf("Triangle X area: %.4f%n", areaX);
+        System.out.printf("Triangle Y area: %.4f%n", areaY);
+        System.out.printf("Larger area: %s%n", max(x.area(), y.area()));
 
         input.close();
-    }
-
-    public static double triangleArea(double x, double y, double z) {
-        double value;
-
-        value = (x + y + z) / 2;
-        value = Math.sqrt(value * (value - x) * (value - y) * (value - z));
-
-        return value;
     }
 
     public static String max(double x, double y) {

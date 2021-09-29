@@ -18,8 +18,28 @@ public class lesson3 {
 
         System.out.print("Quantity in stock: ");
         firstProduct.quantity = input.nextInt();
+        
+        System.out.println();
 
-        firstProduct.productData();
+        System.out.println("Product Data: " + firstProduct);
+
+        System.out.println();
+
+        System.out.print("Enter the number of products to be added in stock: ");
+        firstProduct.addProduct(input.nextInt());
+
+        System.out.println();
+
+        System.out.println("Updated Data: " + firstProduct);
+
+        System.out.println();
+
+        System.out.print("Enter the number of products to be removed in stock: ");
+        firstProduct.removeProducts(input.nextInt());
+
+        System.out.println();
+
+        System.out.println("Updated Data: " + firstProduct);
 
         input.close();
         
