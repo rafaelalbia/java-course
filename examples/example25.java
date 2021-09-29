@@ -1,5 +1,6 @@
 import java.util.Locale;
 import java.util.Scanner;
+
 import entities.Triangle;
 
 public class example25 {

@@ -1,10 +1,6 @@
 package entities;
 
-import java.util.Scanner;
-
 public class Product {
-
-    Scanner input = new Scanner(System.in);
 
     public String name;
     public double price;
