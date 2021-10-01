@@ -12,8 +12,10 @@ public class exercise25 {
         firstRectangle.width = input.nextDouble();
         firstRectangle.height = input.nextDouble();
 
-        System.out.println("AREA = " + firstRectangle.area());
-        System.out.println("PERIMETER = " + firstRectangle.perimeter());
-        System.out.println("DIAGONAL = " + firstRectangle.diagonal());
+        System.out.println("AREA = " + firstRectangle.Area());
+        System.out.println("PERIMETER = " + firstRectangle.Perimeter());
+        System.out.println("DIAGONAL = " + firstRectangle.Diagonal());
+
+        input.close();
     }
 }

@@ -5,15 +5,15 @@ public class Rectangle {
     public double width;
     public double height;
 
-    public double area() {
+    public double Area() {
         return width * height;
     }
 
-    public double perimeter() {
+    public double Perimeter() {
         return (width * 2) + (height * 2);
     }
 
-    public double diagonal() {
+    public double Diagonal() {
         return (width * width) + (height * height);
     }
 }
