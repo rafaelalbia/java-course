@@ -11,7 +11,9 @@ public class exercise26 {
         System.out.print("Name: ");
         firstEmployee.name = input.next();
         System.out.println("Gross salary: ");
-        firstEmployee.grossSalary = input.nextDouble();
+        firstEmployee.salary = input.nextDouble();
+
+        System.out.println("Employee: " + firstEmployee);
 
         input.close();
     }
