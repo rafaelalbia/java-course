@@ -5,10 +5,13 @@
 
 <h2>🛠️ Technologies</h2>
 <ul>
-<li>HTML5</li>
-<li>CSS3</li>
-<li>JavaScript</li>
-<li>ReactJS</li>
-<li>NextJS</li>
-<li>Styled Components</li>
+    <li>Java</li>
+    <li>UML</li>
+    <li>JDBC</li>
+    <li>JavaFX</li>
+    <li>Spring Boot</li>
+    <li>JPA</li>
+    <li>Hibernate</li>
+    <li>MySQL</li>
+    <li>MongoDB</li>
 </ul>
